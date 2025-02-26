@@ -1,0 +1,24 @@
+Backend: Vitis
+ClockPeriod: 5
+ClockUncertainty: 27%
+HLSConfig:
+  Model:
+    BramFactor: 1000000000
+    Precision:
+      default: fixed<16,6>
+    ReuseFactor: 1
+    Strategy: Latency
+    TraceOutput: false
+IOType: io_parallel
+InputData: null
+KerasModel: !keras_model '/home/hep/lr1424/hls4ml-tutorial_OPENML/model_2.2/hls4ml_prj_prune_90/keras_model.keras'
+OutputDir: /home/hep/lr1424/hls4ml-tutorial_OPENML/model_2.2/hls4ml_prj_prune_90
+OutputPredictions: null
+Part: xcu50-fsvh2104-2-e
+ProjectName: myproject
+Stamp: 51bc437e
+Version: 1.0.0
+WriterConfig:
+  Namespace: null
+  WriteTar: false
+  WriteWeightsTxt: true

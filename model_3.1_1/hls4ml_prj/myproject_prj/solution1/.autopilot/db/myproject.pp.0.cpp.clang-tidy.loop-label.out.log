@@ -1,0 +1,419 @@
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:28366:7: warning: Added loop label VITIS_LOOP_1223_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1223_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:28366:7: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29340:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29340:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29354:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29354:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29368:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:29368:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:30985:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1247_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:30985:7: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:32968:9: warning: Added loop label VITIS_LOOP_27_1:   [xilinx-label-all-loops]
+        for (unsigned i = 0; i < N; i++) {
+        ^~~
+        VITIS_LOOP_27_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:32968:9: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:32981:9: warning: Added loop label VITIS_LOOP_40_1:   [xilinx-label-all-loops]
+        for (size_t i = 0; i < N; i++) {
+        ^~~
+        VITIS_LOOP_40_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:32981:9: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55931:5: warning: Added loop label VITIS_LOOP_265_1:   [xilinx-label-all-loops]
+    for (typename std::vector<src_T>::const_iterator i = in_begin; i != in_end; ++i) {
+    ^~~
+    VITIS_LOOP_265_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55931:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55941:5: warning: Added loop label VITIS_LOOP_275_1:   [xilinx-label-all-loops]
+    for (auto i = 0; i < SIZE; i++)
+    ^~~
+    VITIS_LOOP_275_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55941:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55952:5: warning: Added loop label VITIS_LOOP_286_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < SIZE; i++) {
+    ^~~
+    VITIS_LOOP_286_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55952:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55959:5: warning: Added loop label VITIS_LOOP_293_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < SIZE / res_T::size; i++) {
+    ^~~
+    VITIS_LOOP_293_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55959:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55961:9: warning: Added loop label VITIS_LOOP_295_2:   [xilinx-label-all-loops]
+        for (int j = 0; j < res_T::size; j++) {
+        ^~~
+        VITIS_LOOP_295_2: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55961:9: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55973:5: warning: Added loop label VITIS_LOOP_307_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < SIZE / data_T::size; i++) {
+    ^~~
+    VITIS_LOOP_307_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55973:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55975:9: warning: Added loop label VITIS_LOOP_309_2:   [xilinx-label-all-loops]
+        for (int j = 0; j < data_T::size; j++) {
+        ^~~
+        VITIS_LOOP_309_2: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55975:9: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55990:5: warning: Added loop label VITIS_LOOP_324_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < nrows; ii++) {
+    ^~~
+    VITIS_LOOP_324_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:55990:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56010:5: warning: Added loop label VITIS_LOOP_344_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < nrows; ii++) {
+    ^~~
+    VITIS_LOOP_344_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56010:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56011:9: warning: Added loop label VITIS_LOOP_345_2:   [xilinx-label-all-loops]
+        for (int jj = 0; jj < ncols; jj++) {
+        ^~~
+        VITIS_LOOP_345_2: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56011:9: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56026:5: warning: Added loop label VITIS_LOOP_360_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_IN; ii++) {
+    ^~~
+    VITIS_LOOP_360_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56026:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56033:5: warning: Added loop label VITIS_LOOP_367_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_IN; ii++) {
+    ^~~
+    VITIS_LOOP_367_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56033:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56343:5: warning: Added loop label VITIS_LOOP_136_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::out_width / CONFIG_T::reuse_factor; ii++) {
+    ^~~
+    VITIS_LOOP_136_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56343:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56344:9: warning: Added loop label VITIS_LOOP_137_2:   [xilinx-label-all-loops]
+        for (int ff = 0; ff < CONFIG_T::n_filt; ff++) {
+        ^~~
+        VITIS_LOOP_137_2: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56344:9: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56365:5: warning: Added loop label VITIS_LOOP_158_3:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::out_width / CONFIG_T::reuse_factor; ii++) {
+    ^~~
+    VITIS_LOOP_158_3: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56365:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56366:9: warning: Added loop label VITIS_LOOP_159_4:   [xilinx-label-all-loops]
+        for (int ff = 0; ff < CONFIG_T::n_filt; ff++) {
+        ^~~
+        VITIS_LOOP_159_4: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56366:9: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56654:2: warning: Added loop label VITIS_LOOP_31_1:   [xilinx-label-all-loops]
+ for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+ ^~~
+ VITIS_LOOP_31_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56654:2: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56666:5: warning: Added loop label VITIS_LOOP_43_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_43_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56666:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56680:5: warning: Added loop label VITIS_LOOP_57_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_57_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56680:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56707:5: warning: Added loop label VITIS_LOOP_84_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_84_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56707:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56737:5: warning: Added loop label VITIS_LOOP_114_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_114_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56737:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56774:5: warning: Added loop label VITIS_LOOP_151_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::table_size; i++) {
+    ^~~
+    VITIS_LOOP_151_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56774:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56785:5: warning: Added loop label VITIS_LOOP_162_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::table_size; i++) {
+    ^~~
+    VITIS_LOOP_162_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56785:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56818:5: warning: Added loop label VITIS_LOOP_195_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_195_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56818:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56832:5: warning: Added loop label VITIS_LOOP_209_2:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_209_2: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56832:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56866:5: warning: Added loop label VITIS_LOOP_243_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_243_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56866:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56875:5: warning: Added loop label VITIS_LOOP_252_2:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_252_2: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56875:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56889:5: warning: Added loop label VITIS_LOOP_266_3:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_266_3: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56889:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56896:5: warning: Added loop label VITIS_LOOP_273_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_273_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56896:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56909:5: warning: Added loop label VITIS_LOOP_286_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_286_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56909:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56946:5: warning: Added loop label VITIS_LOOP_323_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_323_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56946:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56951:5: warning: Added loop label VITIS_LOOP_328_2:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_328_2: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56951:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56952:9: warning: Added loop label VITIS_LOOP_329_3:   [xilinx-label-all-loops]
+        for (int jj = 0; jj < CONFIG_T::n_in; jj++) {
+        ^~~
+        VITIS_LOOP_329_3: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56952:9: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56969:5: warning: Added loop label VITIS_LOOP_346_4:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_346_4: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56969:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56982:5: warning: Added loop label VITIS_LOOP_359_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_359_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56982:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56990:5: warning: Added loop label VITIS_LOOP_367_2:   [xilinx-label-all-loops]
+    for (int i = 1; i < CONFIG_T::n_in; i++) {
+    ^~~
+    VITIS_LOOP_367_2: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:56990:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57025:5: warning: Added loop label VITIS_LOOP_402_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_402_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57025:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57055:5: warning: Added loop label VITIS_LOOP_432_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_432_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57055:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57082:2: warning: Added loop label VITIS_LOOP_459_1:   [xilinx-label-all-loops]
+ for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+ ^~~
+ VITIS_LOOP_459_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57082:2: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57096:2: warning: Added loop label VITIS_LOOP_473_1:   [xilinx-label-all-loops]
+ for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+ ^~~
+ VITIS_LOOP_473_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57096:2: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57112:5: warning: Added loop label VITIS_LOOP_489_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_489_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57112:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57130:5: warning: Added loop label VITIS_LOOP_507_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_507_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57130:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57147:5: warning: Added loop label VITIS_LOOP_524_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_524_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57147:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57164:5: warning: Added loop label VITIS_LOOP_541_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_541_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57164:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57194:5: warning: Added loop label VITIS_LOOP_571_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_571_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57194:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57213:5: warning: Added loop label VITIS_LOOP_590_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_590_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57213:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57243:5: warning: Added loop label VITIS_LOOP_620_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_620_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57243:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57262:5: warning: Added loop label VITIS_LOOP_639_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_639_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57262:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57292:5: warning: Added loop label VITIS_LOOP_669_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_669_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57292:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57319:5: warning: Added loop label VITIS_LOOP_696_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < N_TABLE; ii++) {
+    ^~~
+    VITIS_LOOP_696_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57319:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57348:5: warning: Added loop label VITIS_LOOP_725_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_725_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57348:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57369:5: warning: Added loop label VITIS_LOOP_746_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_746_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57369:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57387:5: warning: Added loop label VITIS_LOOP_764_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_764_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57387:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57407:5: warning: Added loop label VITIS_LOOP_784_1:   [xilinx-label-all-loops]
+    for (int ii = 0; ii < CONFIG_T::n_in; ii++) {
+    ^~~
+    VITIS_LOOP_784_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57407:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57503:9: warning: Added loop label VITIS_LOOP_73_1:   [xilinx-label-all-loops]
+        for (int i = 0; i < N / data_T::size; i++) {
+        ^~~
+        VITIS_LOOP_73_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57503:9: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57510:13: warning: Added loop label VITIS_LOOP_80_2:   [xilinx-label-all-loops]
+            for (int j = 0; j < data_T::size; j++) {
+            ^~~
+            VITIS_LOOP_80_2: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57510:13: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57519:9: warning: Added loop label VITIS_LOOP_89_3:   [xilinx-label-all-loops]
+        for (int i = 0; i < N / data_T::size; i++) {
+        ^~~
+        VITIS_LOOP_89_3: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57519:9: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57528:13: warning: Added loop label VITIS_LOOP_98_4:   [xilinx-label-all-loops]
+            for (int j = 0; j < pack_diff; j++) {
+            ^~~
+            VITIS_LOOP_98_4: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57528:13: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57532:17: warning: Added loop label VITIS_LOOP_102_5:   [xilinx-label-all-loops]
+                for (int k = 0; k < res_T::size; k++) {
+                ^~~
+                VITIS_LOOP_102_5: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57532:17: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57543:9: warning: Added loop label VITIS_LOOP_113_6:   [xilinx-label-all-loops]
+        for (int i = 0; i < N / data_T::size; i++) {
+        ^~~
+        VITIS_LOOP_113_6: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57543:9: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57547:13: warning: Added loop label VITIS_LOOP_117_7:   [xilinx-label-all-loops]
+            for (int j = 0; j < data_T::size; j++) {
+            ^~~
+            VITIS_LOOP_117_7: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57547:13: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57571:9: warning: Added loop label VITIS_LOOP_141_1:   [xilinx-label-all-loops]
+        for (int j = 0; j < n_dupl; j++) {
+        ^~~
+        VITIS_LOOP_141_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57571:9: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57575:13: warning: Added loop label VITIS_LOOP_145_2:   [xilinx-label-all-loops]
+            for (int k = 0; k < res_T::size; k++) {
+            ^~~
+            VITIS_LOOP_145_2: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57575:13: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57594:9: warning: Added loop label VITIS_LOOP_164_1:   [xilinx-label-all-loops]
+        for (int k = 0; k < res_T::size; k++) {
+        ^~~
+        VITIS_LOOP_164_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57594:9: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57617:2: warning: Added loop label VITIS_LOOP_187_1:   [xilinx-label-all-loops]
+ for (int i = 0; i < CONFIG_T::height * CONFIG_T::width / data_T::size; i++) {
+ ^~~
+ VITIS_LOOP_187_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57617:2: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57620:9: warning: Added loop label VITIS_LOOP_190_2:   [xilinx-label-all-loops]
+        for (int j = 0; j < data_T::size; j++) {
+        ^~~
+        VITIS_LOOP_190_2: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57620:9: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57625:5: warning: Added loop label VITIS_LOOP_195_3:   [xilinx-label-all-loops]
+    for (int i = 0; i < CONFIG_T::height * CONFIG_T::width / res_T::size; i++) {
+    ^~~
+    VITIS_LOOP_195_3: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57625:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57629:9: warning: Added loop label VITIS_LOOP_199_4:   [xilinx-label-all-loops]
+        for (int j = 0; j < res_T::size; j++) {
+        ^~~
+        VITIS_LOOP_199_4: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57629:9: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57843:9: warning: Added loop label VITIS_LOOP_213_1:   [xilinx-label-all-loops]
+        for (unsigned j = 0; j < data_T::size; j++) {
+        ^~~
+        VITIS_LOOP_213_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57843:9: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57852:9: warning: Added loop label VITIS_LOOP_222_2:   [xilinx-label-all-loops]
+        for (unsigned j = 0; j < data_T::size; j++) {
+        ^~~
+        VITIS_LOOP_222_2: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57852:9: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57958:5: warning: Added loop label VITIS_LOOP_328_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < CONFIG_T::n_in / res_T::size; i++) {
+    ^~~
+    VITIS_LOOP_328_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57958:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57963:9: warning: Added loop label VITIS_LOOP_333_2:   [xilinx-label-all-loops]
+        for (int i = 0; i < res_T::size; i++) {
+        ^~~
+        VITIS_LOOP_333_2: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57963:9: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57971:9: warning: Added loop label VITIS_LOOP_341_3:   [xilinx-label-all-loops]
+        for (int i = 1; i < res_T::size; i++) {
+        ^~~
+        VITIS_LOOP_341_3: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:57971:9: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58570:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58644:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58726:9: error: Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn't exist at all  [clang-diagnostic-error]
+#pragma HLS RESOURCE variable=weights core=ROM_nP_BRAM
+        ^
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58899:5: warning: Added loop label VITIS_LOOP_14_1:   [xilinx-label-all-loops]
+    for (unsigned k = 0; k < CONFIG_T::n_out; k++) {
+    ^~~
+    VITIS_LOOP_14_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58899:5: note: FIX-IT applied suggested code changes
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58959:9: warning: Added loop label VITIS_LOOP_74_1:   [xilinx-label-all-loops]
+        for (int im = 0; im < CONFIG_T::n_out; im++) {
+        ^~~
+        VITIS_LOOP_74_1: 
+/home/hep/lr1424/hls4ml-tutorial_OPENML/model_3.1_1/hls4ml_prj/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp:58959:9: note: FIX-IT applied suggested code changes

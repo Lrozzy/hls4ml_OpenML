@@ -1,0 +1,74 @@
+{
+    "1": {
+        "name": "relu<ap_fixed<13, 11, 5, 3, 0>, ap_ufixed<9, 7, 5, 3, 0>, ReLU_config11>",
+        "file": "firmware\/nnet_utils\/nnet_activation.h",
+        "fileloc": "42",
+        "instructions": "47",
+        "total_instructions": "47",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "0": {
+        "name": "myproject",
+        "file": "myproject.cpp",
+        "fileloc": "7",
+        "instructions": "260",
+        "total_instructions": "2285",
+        "calls": "5 6 7 1 4 3 2",
+        "basicblocks": "1"
+    },
+    "2": {
+        "name": "dense_latency<ap_ufixed<8, 6, 5, 3, 0>, ap_fixed<14, 7, 5, 3, 0>, config18>",
+        "file": "firmware\/nnet_utils\/nnet_dense_latency.h",
+        "fileloc": "33",
+        "instructions": "208",
+        "total_instructions": "208",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "3": {
+        "name": "relu<ap_fixed<13, 11, 5, 3, 0>, ap_ufixed<8, 6, 5, 3, 0>, ReLU_config16>",
+        "file": "firmware\/nnet_utils\/nnet_activation.h",
+        "fileloc": "42",
+        "instructions": "42",
+        "total_instructions": "42",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "4": {
+        "name": "dense_latency<ap_ufixed<9, 7, 5, 3, 0>, ap_fixed<13, 11, 5, 3, 0>, config13>",
+        "file": "firmware\/nnet_utils\/nnet_dense_latency.h",
+        "fileloc": "17",
+        "instructions": "328",
+        "total_instructions": "328",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "5": {
+        "name": "dense_latency<ap_fixed<12, 5, 5, 3, 0>, ap_fixed<13, 8, 5, 3, 0>, config3>",
+        "file": "firmware\/nnet_utils\/nnet_dense_latency.h",
+        "fileloc": "17",
+        "instructions": "777",
+        "total_instructions": "777",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "6": {
+        "name": "relu<ap_fixed<13, 8, 5, 3, 0>, ap_ufixed<12, 7, 5, 3, 0>, ReLU_config6>",
+        "file": "firmware\/nnet_utils\/nnet_activation.h",
+        "fileloc": "42",
+        "instructions": "97",
+        "total_instructions": "97",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "7": {
+        "name": "dense_latency<ap_ufixed<12, 7, 5, 3, 0>, ap_fixed<13, 11, 5, 3, 0>, config8>",
+        "file": "firmware\/nnet_utils\/nnet_dense_latency.h",
+        "fileloc": "17",
+        "instructions": "526",
+        "total_instructions": "526",
+        "calls": "",
+        "basicblocks": "1"
+    }
+}

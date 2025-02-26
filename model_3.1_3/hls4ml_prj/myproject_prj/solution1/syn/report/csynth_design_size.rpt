@@ -1,0 +1,83 @@
+================================================================
+== Design Size Report
+================================================================
+
+* Total Instructions per Compilation Phase
++---------------+-----------------------------+--------------+----------------------------------------------------------------------------------------+
+| Phase         | Step                        | Instructions | Description                                                                            |
++---------------+-----------------------------+--------------+----------------------------------------------------------------------------------------+
+| Compile/Link  |                             |  16,299      | After all functions are compiled and linked into a single design                       |
+|               |                             |              |                                                                                        |
+| Unroll/Inline |                             |              | After user unroll and inline pragmas are applied                                       |
+|               | (1) unroll                  | 222,912 *    | user unroll pragmas are applied                                                        |
+|               | (2) simplification          |  67,474      | simplification of applied user unroll pragmas                                          |
+|               | (3) inline                  |  66,584      | user inline pragmas are applied                                                        |
+|               | (4) simplification          |  66,172      | simplification of applied user inline pragmas                                          |
+|               |                             |              |                                                                                        |
+| Array/Struct  |                             |              | After user array partition and struct aggregate/disaggregate pragmas are applied       |
+|               | (1) array partition         |  39,967      | user array partition pragmas are applied                                               |
+|               | (2) simplification          |   7,940      | simplification of applied user array partition & struct aggregate/disaggregate pragmas |
+|               | (3) aggregate/disaggregate  |   7,940      | user struct aggregate/disaggregate pragmas are applied                                 |
+|               | (4) array reshape           |   5,985      | apply array reshape pragmas                                                            |
+|               | (5) access patterns         |   5,770      | array access pattern optmizations                                                      |
+|               |                             |              |                                                                                        |
+| Performance   |                             |              | After transformations are applied to meet performance pragma targets                   |
+|               | (1) loop simplification     |   5,614      | loop and instruction simplification                                                    |
+|               | (2) parallelization         |   5,332      | loops are unrolled or pipelined to meet performance targets                            |
+|               | (3) array partition         |   5,138      | arrays are partitioned to meet performance targets                                     |
+|               | (4) simplification          |   5,138      | simplification of design after performance transformations                             |
+|               |                             |              |                                                                                        |
+| HW Transforms |                             |              | After hardware transfomations                                                          |
+|               | (1) lowering                |   5,144      | initial conversion to HW specific instructions                                         |
+|               | (2) optimizations           |   5,153      | high level synthesis optimizations                                                     |
++---------------+-----------------------------+--------------+----------------------------------------------------------------------------------------+
+    * - Exceeded design size warning message threshold
+
+* Instructions per Function for each Compilation Phase
++---------------------------------------+-------------------------+--------------+------------------+-----------------+-------------+---------------+
+| Function                              | Location                | Compile/Link | Unroll/Inline    | Array/Struct    | Performance | HW Transforms |
++---------------------------------------+-------------------------+--------------+------------------+-----------------+-------------+---------------+
+| + myproject                           | myproject.cpp:7         | 16,299       | 66,172           | 5,770           | 5,138       | 5,153         |
+|    h_quantize_7<ap_fixed<13, 5,...    | nnet_code_gen.h:27      | 2,731        |                  |                 |             |               |
+|  + dense<ap_fixed<12, 5, AP_TRN...    | nnet_dense.h:41         |   586        |                  |                 |             |               |
+|   + dense                             | nnet_dense.h:50         |   584        |                  |                 |             |               |
+|    + dense_latency<ap_fixed<12, 5...  | nnet_dense_latency.h:13 |   582        |                  |                 |             |               |
+|       product                         | nnet_mult.h:70          |   141        |                  |                 |             |               |
+|       cast<ap_fixed<12, 5, AP_TRN,... | nnet_mult.h:110         |    60        |                  |                 |             |               |
+|    relu<ap_fixed<13, 8, AP_TRN,...    | nnet_activation.h:39    |   229        |   639            |  513            |  449        |  450          |
+|    h_dense_28_relu_quantizer<ap...    | nnet_code_gen.h:49      | 5,176        |                  |                 |             |               |
+|  + dense<ap_ufixed<12, 7, AP_TR...    | nnet_dense.h:41         |   534        |                  |                 |             |               |
+|   + dense                             | nnet_dense.h:50         |   532        |                  |                 |             |               |
+|    + dense_latency<ap_ufixed<12, ...  | nnet_dense_latency.h:13 |   530        |                  |                 |             |               |
+|       product                         | nnet_mult.h:70          |   141        |                  |                 |             |               |
+|       cast<ap_ufixed<12, 7, AP_TRN... | nnet_mult.h:110         |    60        |                  |                 |             |               |
+|    relu<ap_fixed<13, 11, AP_TRN...    | nnet_activation.h:39    |   229        |   319            |  257            |  225        |  226          |
+|    h_dense_29_relu_quantizer<ap...    | nnet_code_gen.h:119     | 2,538        |                  |                 |             |               |
+|  + dense<ap_ufixed<9, 7, AP_TRN...    | nnet_dense.h:41         |   534        |                  |                 |             |               |
+|   + dense                             | nnet_dense.h:50         |   532        |                  |                 |             |               |
+|    + dense_latency<ap_ufixed<9, 7...  | nnet_dense_latency.h:13 |   530        |                  |                 |             |               |
+|       product                         | nnet_mult.h:70          |   141        |                  |                 |             |               |
+|       cast<ap_ufixed<9, 7, AP_TRN,... | nnet_mult.h:110         |    60        |                  |                 |             |               |
+|    relu<ap_fixed<13, 11, AP_TRN...    | nnet_activation.h:39    |   229        |   319            |  257            |  225        |  226          |
+|    h_dense_30_relu_quantizer<ap...    | nnet_code_gen.h:157     | 2,229        |                  |                 |             |               |
+|  + dense<ap_ufixed<8, 6, AP_TRN...    | nnet_dense.h:41         |   534        |                  |                 |             |               |
+|   + dense                             | nnet_dense.h:50         |   532        |                  |                 |             |               |
+|    + dense_latency<ap_ufixed<8, 6...  | nnet_dense_latency.h:13 |   530        |                  |                 |             |               |
+|       product                         | nnet_mult.h:70          |   141        |                  |                 |             |               |
+|       cast<ap_ufixed<8, 6, AP_TRN,... | nnet_mult.h:110         |    60        |                  |                 |             |               |
+|    h_dense_31_quantizer<ap_fixe...    | nnet_code_gen.h:195     |   645        |                  |                 |             |               |
+|  + dense_latency<ap_fixed<12, 5...    | nnet_dense_latency.h:13 |              | 16,178           | 2,198           | 1,706       | 1,707         |
+|     cast<ap_fixed<12, 5, AP_TRN,...   | nnet_mult.h:110         |              |   256 (64 calls) |  256 (64 calls) |             |               |
+|    dense_latency<ap_ufixed<12, ...    | nnet_dense_latency.h:13 |              | 31,025           | 1,043           | 1,024       | 1,025         |
+|    dense_latency<ap_ufixed<9, 7...    | nnet_dense_latency.h:13 |              | 15,530           |  577            |  568        |  569          |
+|    dense_latency<ap_ufixed<8, 6...    | nnet_dense_latency.h:13 |              | 1,337            |  109            |  101        |  102          |
++---------------------------------------+-------------------------+--------------+------------------+-----------------+-------------+---------------+
+
+* Design Size Message Settings
++---------------------------------------------+--------+------------------------------------------------------------------+
+| Message Setting                             | Value  | Description                                                      |
++---------------------------------------------+--------+------------------------------------------------------------------+
+| config_compile -design_size_maximum_warning | 100000 | Show a warning when total design instructions exceeds this value |
++---------------------------------------------+--------+------------------------------------------------------------------+
+
+

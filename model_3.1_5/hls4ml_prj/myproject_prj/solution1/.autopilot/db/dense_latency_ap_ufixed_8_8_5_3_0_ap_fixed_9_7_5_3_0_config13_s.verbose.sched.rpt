@@ -1,0 +1,126 @@
+
+
+================================================================
+== Vitis HLS Report for 'dense_latency_ap_ufixed_8_8_5_3_0_ap_fixed_9_7_5_3_0_config13_s'
+================================================================
+* Date:           Wed Feb 26 01:38:20 2025
+
+* Version:        2024.1 (Build 5069499 on May 21 2024)
+* Project:        myproject_prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: virtexuplusHBM
+* Target device:  xcu50-fsvh2104-2-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  5.00 ns|  2.315 ns|     1.35 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        0|        0|      0 ns|      0 ns|    1|    1|      yes|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 0
+IsPipeline: 1
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 1
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 1
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 1, States = { 1 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 2.31>
+ST_1 : Operation 2 [1/1] (0.00ns)   --->   "%data_5_val_read = read i7 @_ssdm_op_Read.ap_auto.i7, i7 %data_5_val" [firmware/nnet_utils/nnet_dense_latency.h:33]   --->   Operation 2 'read' 'data_5_val_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 3 [1/1] (0.00ns)   --->   "%specpipeline_ln33 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_0" [firmware/nnet_utils/nnet_dense_latency.h:33]   --->   Operation 3 'specpipeline' 'specpipeline_ln33' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%specresourcelimit_ln33 = specresourcelimit void @_ssdm_op_SpecResourceLimit, i64 121, void @empty_1, void @empty_0, void @empty_0, void @empty_0" [firmware/nnet_utils/nnet_dense_latency.h:33]   --->   Operation 4 'specresourcelimit' 'specresourcelimit_ln33' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%zext_ln42 = zext i7 %data_5_val_read" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 5 'zext' 'zext_ln42' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%tmp_20 = bitconcatenate i11 @_ssdm_op_BitConcatenate.i11.i7.i4, i7 %data_5_val_read, i4 0" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 6 'bitconcatenate' 'tmp_20' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%zext_ln42_1 = zext i11 %tmp_20" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 7 'zext' 'zext_ln42_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (1.55ns)   --->   "%mult = mul i14 %zext_ln42, i14 88" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 8 'mul' 'mult' <Predicate = true> <Delay = 1.55> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 1.55> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 9 [1/1] (0.76ns)   --->   "%add_ln58 = add i14 %mult, i14 64" [firmware/nnet_utils/nnet_dense_latency.h:58]   --->   Operation 9 'add' 'add_ln58' <Predicate = true> <Delay = 0.76> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.76> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 10 [1/1] (0.73ns)   --->   "%sub_ln58 = sub i12 672, i12 %zext_ln42_1" [firmware/nnet_utils/nnet_dense_latency.h:58]   --->   Operation 10 'sub' 'sub_ln58' <Predicate = true> <Delay = 0.73> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.73> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%tmp = partselect i8 @_ssdm_op_PartSelect.i8.i14.i32.i32, i14 %add_ln58, i32 6, i32 13" [firmware/nnet_utils/nnet_mult.h:111->firmware/nnet_utils/nnet_dense_latency.h:66]   --->   Operation 11 'partselect' 'tmp' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%zext_ln111 = zext i8 %tmp" [firmware/nnet_utils/nnet_mult.h:111->firmware/nnet_utils/nnet_dense_latency.h:66]   --->   Operation 12 'zext' 'zext_ln111' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%trunc_ln111_1 = partselect i6 @_ssdm_op_PartSelect.i6.i12.i32.i32, i12 %sub_ln58, i32 6, i32 11" [firmware/nnet_utils/nnet_mult.h:111->firmware/nnet_utils/nnet_dense_latency.h:66]   --->   Operation 13 'partselect' 'trunc_ln111_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%sext_ln111 = sext i6 %trunc_ln111_1" [firmware/nnet_utils/nnet_mult.h:111->firmware/nnet_utils/nnet_dense_latency.h:66]   --->   Operation 14 'sext' 'sext_ln111' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%newret = insertvalue i18 <undef>, i9 %zext_ln111" [firmware/nnet_utils/nnet_mult.h:111->firmware/nnet_utils/nnet_dense_latency.h:66]   --->   Operation 15 'insertvalue' 'newret' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%newret2 = insertvalue i18 %newret, i9 %sext_ln111" [firmware/nnet_utils/nnet_mult.h:111->firmware/nnet_utils/nnet_dense_latency.h:66]   --->   Operation 16 'insertvalue' 'newret2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%ret_ln111 = ret i18 %newret2" [firmware/nnet_utils/nnet_mult.h:111->firmware/nnet_utils/nnet_dense_latency.h:66]   --->   Operation 17 'ret' 'ret_ln111' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 5.000ns, clock uncertainty: 1.350ns.
+
+ <State 1>: 2.315ns
+The critical path consists of the following:
+	wire read operation ('data_5_val_read', firmware/nnet_utils/nnet_dense_latency.h:33) on port 'data_5_val' (firmware/nnet_utils/nnet_dense_latency.h:33) [2]  (0.000 ns)
+	'mul' operation 14 bit ('mult', firmware/nnet_utils/nnet_dense_latency.h:42) [8]  (1.550 ns)
+	'add' operation 14 bit ('add_ln58', firmware/nnet_utils/nnet_dense_latency.h:58) [9]  (0.765 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A
